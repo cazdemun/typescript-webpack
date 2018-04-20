@@ -1,0 +1,36 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "description": "quick start for a typescript project with web pack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --inline --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cazdemun/typescript-webpack.git"
+  },
+  "keywords": [],
+  "author": "cazdemun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cazdemun/typescript-webpack/issues"
+  },
+  "homepage": "https://github.com/cazdemun/typescript-webpack#readme",
+  "devDependencies": {
+    "awesome-typescript-loader": "3.4.1",
+    "browser-sync": "latest",
+    "browser-sync-webpack-plugin": "latest",
+    "css-loader": "latest",
+    "extract-text-webpack-plugin": "latest",
+    "html-webpack-plugin": "latest",
+    "json-loader": "latest",
+    "progress-bar-webpack-plugin": "latest",
+    "style-loader": "latest",
+    "typescript": "latest",
+    "webpack": "3.11.0",
+    "webpack-dev-server": "2.11.1"
+  },
+  "dependencies": {}
+}
